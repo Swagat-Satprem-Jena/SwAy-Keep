@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center-add-note-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.fit-add-note{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 25vw;
+    /* height: 30vh; */
+}
+
+.txt-ar, .txt-ar:focus{
+    resize: none;
+    border: none;
+    overflow: hidden;
+    box-shadow: none;
+    height: 20vh;
+}
+
+.tit-ar, .tit-ar:focus{
+    border: none;
+    display: none;
+    box-shadow: none;
+}
+
+.flt-txt{
+    color: #7F8487;
+}
+
+.add-btn-div{
+    display: block;
+    position: relative;
+}
+
+.add-btn{
+    display: none;
+    padding: 5px;
+    background-color: #FFC54D;
+    border-radius: 50%;
+    margin: 10px 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.dlt-btn{
+    display: inline-block;
+    padding: 5px;
+    background-color: #FFC54D;
+    border-radius: 50%;
+    margin: 20px 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card{
+    width: 18rem;
+    /* height: 30rem; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+    min-height: 12rem;
+    margin: 20px 30px;
+}
+
+.card-body{
+    position: relative;
+}
+
+.display-task-div{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 991px) {
+    .fit-add-note{
+        width: 50vw;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .fit-add-note{
+        width: 80vw;
+    }
+  }

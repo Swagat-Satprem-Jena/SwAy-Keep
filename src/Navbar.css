@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo-and-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo-img{
+    margin-right: 15px;
+}
+
+.logo-text{
+    color: #7F8487;
+    font-weight: 700;
+}
+
+.custom-navbar{
+    color: #fff;
+    background-color: #fff;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+    color: white;
+}
